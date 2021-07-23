@@ -1,0 +1,138 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0px
+}
+.bg-container{
+    padding-top:40px;
+    width:75%;
+    margin:auto;
+}
+header{
+    text-align: center;
+}
+.profile-photo{
+    width:160px;
+    height: 160px;
+    border-radius: 18px;
+}
+.profile-name{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-size: 25px;
+}
+.profile-info{
+    margin-top: 2px;
+    color: #a5a2a2;
+}
+.stats-container{
+    display:flex;
+    flex-direction: row;
+    width: 40%;
+    margin:auto;
+    justify-content: space-evenly;
+}
+.stats{
+    background-color:#e5e5e5;
+    padding: 3px 10px;
+    border-radius: 18px;
+    width: 80px;
+}
+.stats-number{
+    margin-top:5px;
+    margin-bottom: 1px;
+    font-size: 13px;
+}
+.stats-name{
+    margin-top: 1px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #a19e9e;
+}
+main{
+    margin-top: 20px;
+}
+.first-row{
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    border-radius:15px;
+}
+.image-1{
+    width:33%;
+    margin-right:10px;
+}
+.image-2{
+    width:65%;
+}
+.second-row{
+    display:flex;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+.second-first{
+    display:flex;
+    flex-direction: column;
+    width: 68%;
+}
+.bath-tub{
+    width:100%;
+}
+.image-3{
+    width:100%;
+}
+.last-two-images{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.image-4{
+    width: 49%;
+}
+.image-5{
+    width: 49%;
+}
+.second-second{
+    width: 31%;
+}
+.image-6{
+    width:100%;
+    height: 100%;
+}
+@media (max-width:1140px){
+    .stats-container{
+        width: 50%;
+    }
+    .stats-name{
+        font-size: 13px;
+    }
+    .profile-name{
+        font-size: 22px;
+    }
+    .profile-info{
+        font-size: 16px;
+    }
+}
+@media (max-width:950px){
+    .bg-container{
+        width:88%;
+    }
+    .stats-container{
+        width:65%
+    }
+}
+@media (max-width:700px){
+    .bg-container{
+        width: 90%;
+    }
+    .stats-container{
+        width:80%;
+    }
+    .stats-name{
+        font-size: 12px;
+    }
+    .stats{
+        width:65px;
+    }
+}
